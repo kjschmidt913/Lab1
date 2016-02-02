@@ -68,15 +68,18 @@ a:visited {
 
 /*About Page Stuff*/
 #about {
-	margin-left: 30px;
+	margin-left: 5%;
 	width: 50%;
 	display:inline-block;
 }
 
 #kj_img {
-	float:right;
-	width: 30%;
-	margin-right: 70px;
+	width: 10%;
+	margin-left:auto;
+	display: inline-block;
+	position: relative;
+	bottom: 7em;
+	left: 4em;
 }
 
 
@@ -113,16 +116,55 @@ h4{
 
 .circle {
 	border-radius: 50%;
-	border: solid black 1px;
+	border: solid #BDBDBD 1px;
 }
 
-#portfolio_images {
+
+.portfolio_images {
 	text-align: center;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
 }
+
 
 .photo_link:hover {
 	opacity: 0.6;
 
 }
+
+
+.column1, .column2, .column3 {
+	width:30%;
+	text-align: center;
+	display:inline-block;	
+	padding-bottom: 2em;
+	margin-top: 0em;
+	vertical-align: top;
+}
+
+.column1 {
+	margin-left: auto;	
+	padding-right: 1em;
+}
+
+.column2{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column3{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;	
+	padding-left: 1em;
+}
+
+.title{
+	display: block;
+	font-size: 1.5em;
+}
+
+
 
 
