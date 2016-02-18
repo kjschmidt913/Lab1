@@ -1,0 +1,14 @@
+/*  jQuery ready function. Specify a function to execute when the DOM is fully loaded.  */
+$(document).ready(
+  /* This is the function that will get executed after the DOM is fully loaded */
+  function () {
+    /* Next part handles hovering effect and submenu appearing */
+    $('li').hover(function () { //appearing on hover
+        $(this).fadeTo('fast', 0.25);
+      },
+    $('li').click(function () { /*background change when clicked*/
+        $(this).css('background-color', 'black');
+
+      });
+  }
+);

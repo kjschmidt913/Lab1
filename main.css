@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color:black;
+	background-color:white;
 }
 
 @font-face {
@@ -18,53 +18,58 @@ body {
     font-style: normal;
 }
 
-#name {
-	background-color: white;
-	margin-top: 10px;
-	margin-left: 100px;
-	margin-right: 100px;
-	text-align: center;
+.navbar{
+	margin-bottom: 0px;
 }
 
-header {
-	font-size: 40px;
-}
-
-#toplinks {
-	word-spacing: 30px;
-}
 
 #page {
 	background-color: white;
-	margin-top: 17px;
-	margin-right: 100px;
-	margin-left: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-top: 1%;
+	margin-right: 8%;
+	margin-left: 8%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
+
+
 
 a:link {
     text-decoration: none;
     color: black;
-    font-family: code_boldregular, Helvetica;
+    font-family: Helvetica;
 }
 
 a:hover {
 	text-decoration: overline;
     color: black;
-    font-family: code_boldregular, Helvetica;
+    font-family: Helvetica;
 }
 
 a:visited {
 	text-decoration: none;
     color: black;
-    font-family: code_boldregular, Helvetica;
+    font-family: Helvetica;
 }
 
 /*Home Page Stuff*/
+
+#frontPageName{
+	position: relative;
+}
+
 #home_images {
 	text-align: center;
 }
+
+.full {
+    background: url('images/meerkat.jpg') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 /*About Page Stuff*/
 #about {
@@ -80,34 +85,38 @@ a:visited {
 	vertical-align: top;
 }
 
+h2 {
+	margin: 0% 5%;
+}
+
 
 /*Resume stuff*/ 
 
 #resume {
 	/*border: solid black 3px;
 	border-radius: 3%;*/
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin: 20px 20px 10px 20px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: 1% 2% 1% 2%;
 }
 
 h3 {
-	margin-left: 25px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-left: 3%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 
 }
 
 h4{
-	margin-left: 25px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-left: 3%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 
 .resume_content {
-	margin-left: 50px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-left: 5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 
 /*Portfolio Stuff*/
@@ -168,5 +177,45 @@ h4{
 img {
     max-width: 100%
 }
+
+
+/*iPad or Tablet */
+@media only screen and (max-width : 900px) {
+ 	#kj_img {
+    	display: block;
+    	margin: 0% auto;
+    	width: 60%;
+  	}
+  	#page {
+  		margin: 1% auto;
+  		width: 80%;
+  	}
+  	#about {
+  		margin: 0 auto;
+  		width:80%;
+  		display:block;
+  	}
+  	#about p {
+  		margin: auto;
+  		padding: 1%;
+  	}
+  	h2 {
+  		text-align: center;
+  	}
+  	.portfolio_images{
+  		font-size:;
+  	}
+  	.column1, .column2, .column3 {
+  		display:block;
+  		margin:0% auto;
+  		width:50%;
+  	}
+  	.resume_content, h3, h4{
+  		font-size: .8em;
+  	}
+
+}
+
+
 
 
