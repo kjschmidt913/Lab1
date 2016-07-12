@@ -188,10 +188,10 @@ a:visited {
 
 .modal-content {
   background-color: #fefefe;
-  margin: 6% auto;
+  margin: 2% auto 2% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 65%;
+  width: 90%;
 }
 
 .close{
@@ -216,7 +216,9 @@ a:visited {
 .projectModalInfo h3{
   font-size: 1.3em;
   margin: 1%;
-  margin-left: 
+  color: #2e3641;
+  font-weight: bold;
+
 }
 
 .projectModalInfo p {
@@ -245,7 +247,7 @@ a:visited {
 .projectModalImage{
   display: inline-block;
   text-align: center;
-  width: 50%;
+  width: 45%;
   margin-left:auto;
   vertical-align: top;
   padding-left: 2%;
