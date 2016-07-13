@@ -237,14 +237,16 @@ a:visited {
 
 .projectModalInfo h3{
   font-size: 1.3em;
-  margin: 1%;
+  margin-bottom: 0px;
+  margin-top: 0px;
   color: #2e3641;
   font-weight: bold;
+
 
 }
 
 .projectModalInfo p {
-  margin-top: 1%;
+  margin-top: 0px;
   margin-left: 3%;
 
 }
