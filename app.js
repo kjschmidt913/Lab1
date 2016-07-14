@@ -2,22 +2,22 @@ $(document).ready(function (){
             $("#contactButton").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#connect").offset().top
-                }, 2000);
+                }, 500);
             });
             $("#homeButton").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#home").offset().top
-                }, 2000);
+                }, 500);
             });
             $("#portfolioButton").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#resume").offset().top
-                }, 2000);
+                }, 500);
             });
             $("#aboutButton").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#aboutScroll").offset().top
-                }, 2000);
+                }, 500);
             });
 
         });
