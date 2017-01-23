@@ -111,6 +111,42 @@ fiveSpan.onclick = function(){
 	fiveModal.style.display = "none";
 };
 
+//Seventh portfolio piece
+var sixModal = document.getElementById('myModal6');
+var sixBtn = document.getElementById("img6");
+var sixSpan = document.getElementsByClassName("close")[6];
+
+sixBtn.onclick = function(){
+    sixModal.style.display = "block";
+};
+sixSpan.onclick = function(){
+    sixModal.style.display = "none";
+};
+
+
+//Eighth portfolio piece
+var sevenModal = document.getElementById('myModal7');
+var sevenBtn = document.getElementById("img7");
+var sevenSpan = document.getElementsByClassName("close")[7];
+
+sevenBtn.onclick = function(){
+    sevenModal.style.display = "block";
+};
+sevenSpan.onclick = function(){
+    sevenModal.style.display = "none";
+};
+
+//Nineth portfolio piece
+var eightModal = document.getElementById('myModal8');
+var eightBtn = document.getElementById("img8");
+var eightSpan = document.getElementsByClassName("close")[8];
+
+eightBtn.onclick = function(){
+    eightModal.style.display = "block";
+};
+eightSpan.onclick = function(){
+    eightModal.style.display = "none";
+};
 
 
 
