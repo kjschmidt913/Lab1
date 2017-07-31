@@ -11,7 +11,7 @@ $(document).ready(function (){
             });
             $("#portfolioButton").click(function (){
                 $('html, body').animate({
-                    scrollTop: $("#resume").offset().top
+                    scrollTop: $("#portScroll").offset().top
                 }, 500);
             });
             $("#aboutButton").click(function (){
@@ -147,13 +147,3 @@ eightBtn.onclick = function(){
 eightSpan.onclick = function(){
     eightModal.style.display = "none";
 };
-
-
-
-
-
-
-
-
-
-
