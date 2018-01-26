@@ -337,7 +337,7 @@ img {
 
 
 /*iPad or Tablet */
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width : 700px) {
  	#kj_img {
     	display: block;
     	margin: 0% auto 20%;
@@ -353,7 +353,7 @@ img {
   		display:block;
   	}
   	#about p {
-  		margin: auto auto 10%;
+  		margin: auto auto 4%;
   	}
   	.title {
   		text-align: center;
